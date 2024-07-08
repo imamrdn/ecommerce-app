@@ -15,7 +15,7 @@ The E-commerce Product Management System is designed to streamline the process o
     ```
 2. Directory entry
     ```sh
-    cd auth-lareact
+    cd ecommerce-app
     ```
 3. Install PHP dependencies using Composer
     ```sh
