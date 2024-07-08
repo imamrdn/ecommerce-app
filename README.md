@@ -21,34 +21,30 @@ The E-commerce Product Management System is designed to streamline the process o
     ```sh
     composer install
     ```
-4. Install JavaScript dependencies using npm
-    ```sh
-    npm install
-    ```
-5. Copy the .env.example file into .env and customize the database configuration
+4. Copy the .env.example file into .env and customize the database configuration
     ```sh
     cp .env.example .env
     ```
-6. Generate the application key and run the database migration
+5. Generate the application key and run the database migration
     ```sh
     php artisan key:generate
     php artisan migrate
     ```
-7. You can use the account provided in the seeder
+6. You can use the account provided in the seeder
 
     ```sh
     php artisan db:seed
 
     ADMIN SIDE
-    Email   : super@admin.com
+    Email   : admin@koncoo.com
     Pass    : password
 
     CUSTOMER SIDE
-    Email   : super@admin.com
+    Email   : customer@gmail.com
     Pass    : password
     ```
 
-8. Run the Laravel server
+7. Run the Laravel server
     ```sh
     php artisan serve
     ```
